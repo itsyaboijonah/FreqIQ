@@ -14,6 +14,14 @@
 		8C54AAEC283C953300431F28 /* FrequencyQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAEB283C953300431F28 /* FrequencyQuizTests.swift */; };
 		8C54AAF6283C953300431F28 /* FrequencyQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF5283C953300431F28 /* FrequencyQuizUITests.swift */; };
 		8C54AAF8283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */; };
+		8C54AB06283C9A1200431F28 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB05283C9A1200431F28 /* PrimaryButton.swift */; };
+		8C54AB09283C9DC700431F28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB08283C9DC700431F28 /* Extensions.swift */; };
+		8C54AB0B283C9F4800431F28 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0A283C9F4800431F28 /* QuestionView.swift */; };
+		8C54AB0D283CA01C00431F28 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0C283CA01C00431F28 /* ProgressBar.swift */; };
+		8C54AB10283CA26500431F28 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0F283CA26500431F28 /* Answer.swift */; };
+		8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB11283CA2B700431F28 /* AnswerRow.swift */; };
+		8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB13283CA77B00431F28 /* TriviaView.swift */; };
+		8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB15283CA88C00431F28 /* Trivia.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		8C54AAF1283C953300431F28 /* FrequencyQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrequencyQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C54AAF5283C953300431F28 /* FrequencyQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizUITests.swift; sourceTree = "<group>"; };
 		8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C54AB05283C9A1200431F28 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		8C54AB08283C9DC700431F28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8C54AB0A283C9F4800431F28 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		8C54AB0C283CA01C00431F28 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		8C54AB0F283CA26500431F28 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		8C54AB11283CA2B700431F28 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		8C54AB13283CA77B00431F28 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		8C54AB15283CA88C00431F28 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,13 @@
 		8C54AAD9283C953100431F28 /* FrequencyQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				8C54AB0E283CA25500431F28 /* Models */,
+				8C54AB07283C9B3A00431F28 /* Views */,
+				8C54AB04283C99E800431F28 /* Components */,
 				8C54AADA283C953100431F28 /* FrequencyQuizApp.swift */,
-				8C54AADC283C953100431F28 /* ContentView.swift */,
 				8C54AADE283C953300431F28 /* Assets.xcassets */,
 				8C54AAE0283C953300431F28 /* Preview Content */,
+				8C54AB08283C9DC700431F28 /* Extensions.swift */,
 			);
 			path = FrequencyQuiz;
 			sourceTree = "<group>";
@@ -125,6 +144,35 @@
 				8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */,
 			);
 			path = FrequencyQuizUITests;
+			sourceTree = "<group>";
+		};
+		8C54AB04283C99E800431F28 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C54AB05283C9A1200431F28 /* PrimaryButton.swift */,
+				8C54AB0C283CA01C00431F28 /* ProgressBar.swift */,
+				8C54AB11283CA2B700431F28 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8C54AB07283C9B3A00431F28 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C54AADC283C953100431F28 /* ContentView.swift */,
+				8C54AB0A283C9F4800431F28 /* QuestionView.swift */,
+				8C54AB13283CA77B00431F28 /* TriviaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C54AB0E283CA25500431F28 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C54AB0F283CA26500431F28 /* Answer.swift */,
+				8C54AB15283CA88C00431F28 /* Trivia.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C54AB0B283C9F4800431F28 /* QuestionView.swift in Sources */,
+				8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */,
+				8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */,
+				8C54AB06283C9A1200431F28 /* PrimaryButton.swift in Sources */,
+				8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */,
 				8C54AADD283C953100431F28 /* ContentView.swift in Sources */,
+				8C54AB10283CA26500431F28 /* Answer.swift in Sources */,
 				8C54AADB283C953100431F28 /* FrequencyQuizApp.swift in Sources */,
+				8C54AB0D283CA01C00431F28 /* ProgressBar.swift in Sources */,
+				8C54AB09283C9DC700431F28 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
