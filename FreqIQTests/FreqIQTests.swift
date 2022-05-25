@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import FrequencyQuiz
+@testable import FreqIQ
 
 class FrequencyQuizTests: XCTestCase {
 

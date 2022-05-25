@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8C54AADB283C953100431F28 /* FrequencyQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AADA283C953100431F28 /* FrequencyQuizApp.swift */; };
+		8C26935E283DD414008CB109 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C26935D283DD414008CB109 /* Audio.swift */; };
+		8C54AADB283C953100431F28 /* FreqIQApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AADA283C953100431F28 /* FreqIQApp.swift */; };
 		8C54AADD283C953100431F28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AADC283C953100431F28 /* ContentView.swift */; };
 		8C54AADF283C953300431F28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C54AADE283C953300431F28 /* Assets.xcassets */; };
 		8C54AAE2283C953300431F28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C54AAE1283C953300431F28 /* Preview Assets.xcassets */; };
-		8C54AAEC283C953300431F28 /* FrequencyQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAEB283C953300431F28 /* FrequencyQuizTests.swift */; };
-		8C54AAF6283C953300431F28 /* FrequencyQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF5283C953300431F28 /* FrequencyQuizUITests.swift */; };
-		8C54AAF8283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */; };
+		8C54AAEC283C953300431F28 /* FreqIQTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAEB283C953300431F28 /* FreqIQTests.swift */; };
+		8C54AAF6283C953300431F28 /* FreqIQUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF5283C953300431F28 /* FreqIQUITests.swift */; };
+		8C54AAF8283C953300431F28 /* FreqIQUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AAF7283C953300431F28 /* FreqIQUITestsLaunchTests.swift */; };
 		8C54AB06283C9A1200431F28 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB05283C9A1200431F28 /* PrimaryButton.swift */; };
 		8C54AB09283C9DC700431F28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB08283C9DC700431F28 /* Extensions.swift */; };
 		8C54AB0B283C9F4800431F28 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0A283C9F4800431F28 /* QuestionView.swift */; };
@@ -21,7 +22,19 @@
 		8C54AB10283CA26500431F28 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0F283CA26500431F28 /* Answer.swift */; };
 		8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB11283CA2B700431F28 /* AnswerRow.swift */; };
 		8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB13283CA77B00431F28 /* TriviaView.swift */; };
-		8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB15283CA88C00431F28 /* Trivia.swift */; };
+		8C54AB16283CA88C00431F28 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB15283CA88C00431F28 /* Question.swift */; };
+		8CEDE3D8283DE38B00D3D800 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */; };
+		8CEDE3E4283DF75000D3D800 /* 31.5Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3D9283DF74F00D3D800 /* 31.5Hz12dB.wav */; };
+		8CEDE3E5283DF75000D3D800 /* 2kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DA283DF74F00D3D800 /* 2kHz12dB.wav */; };
+		8CEDE3E6283DF75000D3D800 /* 125Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */; };
+		8CEDE3E7283DF75000D3D800 /* 500Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */; };
+		8CEDE3E8283DF75000D3D800 /* original.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DD283DF75000D3D800 /* original.wav */; };
+		8CEDE3E9283DF75000D3D800 /* 4kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DE283DF75000D3D800 /* 4kHz12dB.wav */; };
+		8CEDE3EA283DF75000D3D800 /* 16kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DF283DF75000D3D800 /* 16kHz12dB.wav */; };
+		8CEDE3EB283DF75000D3D800 /* 8kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3E0283DF75000D3D800 /* 8kHz12dB.wav */; };
+		8CEDE3EC283DF75000D3D800 /* 63Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3E1283DF75000D3D800 /* 63Hz12dB.wav */; };
+		8CEDE3ED283DF75000D3D800 /* 1kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3E2283DF75000D3D800 /* 1kHz12dB.wav */; };
+		8CEDE3EE283DF75000D3D800 /* 250Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3E3283DF75000D3D800 /* 250Hz12dB.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,16 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8C54AAD7283C953100431F28 /* FrequencyQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrequencyQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C54AADA283C953100431F28 /* FrequencyQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizApp.swift; sourceTree = "<group>"; };
+		8C26935D283DD414008CB109 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		8C54AAD7283C953100431F28 /* FreqIQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreqIQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54AADA283C953100431F28 /* FreqIQApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqIQApp.swift; sourceTree = "<group>"; };
 		8C54AADC283C953100431F28 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8C54AADE283C953300431F28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C54AAE1283C953300431F28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8C54AAE7283C953300431F28 /* FrequencyQuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrequencyQuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C54AAEB283C953300431F28 /* FrequencyQuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizTests.swift; sourceTree = "<group>"; };
-		8C54AAF1283C953300431F28 /* FrequencyQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrequencyQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C54AAF5283C953300431F28 /* FrequencyQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizUITests.swift; sourceTree = "<group>"; };
-		8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencyQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C54AAE7283C953300431F28 /* FreqIQTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreqIQTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54AAEB283C953300431F28 /* FreqIQTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqIQTests.swift; sourceTree = "<group>"; };
+		8C54AAF1283C953300431F28 /* FreqIQUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FreqIQUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C54AAF5283C953300431F28 /* FreqIQUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqIQUITests.swift; sourceTree = "<group>"; };
+		8C54AAF7283C953300431F28 /* FreqIQUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FreqIQUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8C54AB05283C9A1200431F28 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		8C54AB08283C9DC700431F28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		8C54AB0A283C9F4800431F28 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
@@ -59,7 +73,19 @@
 		8C54AB0F283CA26500431F28 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		8C54AB11283CA2B700431F28 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		8C54AB13283CA77B00431F28 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
-		8C54AB15283CA88C00431F28 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		8C54AB15283CA88C00431F28 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		8CEDE3D9283DF74F00D3D800 /* 31.5Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 31.5Hz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3DA283DF74F00D3D800 /* 2kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2kHz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 125Hz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500Hz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3DD283DF75000D3D800 /* original.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = original.wav; sourceTree = "<group>"; };
+		8CEDE3DE283DF75000D3D800 /* 4kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4kHz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3DF283DF75000D3D800 /* 16kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 16kHz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3E0283DF75000D3D800 /* 8kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8kHz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3E1283DF75000D3D800 /* 63Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 63Hz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3E2283DF75000D3D800 /* 1kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 1kHz12dB.wav; sourceTree = "<group>"; };
+		8CEDE3E3283DF75000D3D800 /* 250Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 250Hz12dB.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +113,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C26935A283DD39E008CB109 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				8CEDE3E2283DF75000D3D800 /* 1kHz12dB.wav */,
+				8CEDE3DA283DF74F00D3D800 /* 2kHz12dB.wav */,
+				8CEDE3DE283DF75000D3D800 /* 4kHz12dB.wav */,
+				8CEDE3E0283DF75000D3D800 /* 8kHz12dB.wav */,
+				8CEDE3DF283DF75000D3D800 /* 16kHz12dB.wav */,
+				8CEDE3D9283DF74F00D3D800 /* 31.5Hz12dB.wav */,
+				8CEDE3E1283DF75000D3D800 /* 63Hz12dB.wav */,
+				8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */,
+				8CEDE3E3283DF75000D3D800 /* 250Hz12dB.wav */,
+				8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */,
+				8CEDE3DD283DF75000D3D800 /* original.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		8C54AACE283C953100431F28 = {
 			isa = PBXGroup;
 			children = (
-				8C54AAD9283C953100431F28 /* FrequencyQuiz */,
-				8C54AAEA283C953300431F28 /* FrequencyQuizTests */,
-				8C54AAF4283C953300431F28 /* FrequencyQuizUITests */,
+				8C54AAD9283C953100431F28 /* FreqIQ */,
+				8C54AAEA283C953300431F28 /* FreqIQTests */,
+				8C54AAF4283C953300431F28 /* FreqIQUITests */,
 				8C54AAD8283C953100431F28 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,25 +144,27 @@
 		8C54AAD8283C953100431F28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C54AAD7283C953100431F28 /* FrequencyQuiz.app */,
-				8C54AAE7283C953300431F28 /* FrequencyQuizTests.xctest */,
-				8C54AAF1283C953300431F28 /* FrequencyQuizUITests.xctest */,
+				8C54AAD7283C953100431F28 /* FreqIQ.app */,
+				8C54AAE7283C953300431F28 /* FreqIQTests.xctest */,
+				8C54AAF1283C953300431F28 /* FreqIQUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C54AAD9283C953100431F28 /* FrequencyQuiz */ = {
+		8C54AAD9283C953100431F28 /* FreqIQ */ = {
 			isa = PBXGroup;
 			children = (
+				8C26935A283DD39E008CB109 /* Sounds */,
 				8C54AB0E283CA25500431F28 /* Models */,
 				8C54AB07283C9B3A00431F28 /* Views */,
 				8C54AB04283C99E800431F28 /* Components */,
-				8C54AADA283C953100431F28 /* FrequencyQuizApp.swift */,
+				8C54AADA283C953100431F28 /* FreqIQApp.swift */,
 				8C54AADE283C953300431F28 /* Assets.xcassets */,
 				8C54AAE0283C953300431F28 /* Preview Content */,
 				8C54AB08283C9DC700431F28 /* Extensions.swift */,
+				8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */,
 			);
-			path = FrequencyQuiz;
+			path = FreqIQ;
 			sourceTree = "<group>";
 		};
 		8C54AAE0283C953300431F28 /* Preview Content */ = {
@@ -129,21 +175,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8C54AAEA283C953300431F28 /* FrequencyQuizTests */ = {
+		8C54AAEA283C953300431F28 /* FreqIQTests */ = {
 			isa = PBXGroup;
 			children = (
-				8C54AAEB283C953300431F28 /* FrequencyQuizTests.swift */,
+				8C54AAEB283C953300431F28 /* FreqIQTests.swift */,
 			);
-			path = FrequencyQuizTests;
+			path = FreqIQTests;
 			sourceTree = "<group>";
 		};
-		8C54AAF4283C953300431F28 /* FrequencyQuizUITests */ = {
+		8C54AAF4283C953300431F28 /* FreqIQUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8C54AAF5283C953300431F28 /* FrequencyQuizUITests.swift */,
-				8C54AAF7283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift */,
+				8C54AAF5283C953300431F28 /* FreqIQUITests.swift */,
+				8C54AAF7283C953300431F28 /* FreqIQUITestsLaunchTests.swift */,
 			);
-			path = FrequencyQuizUITests;
+			path = FreqIQUITests;
 			sourceTree = "<group>";
 		};
 		8C54AB04283C99E800431F28 /* Components */ = {
@@ -152,6 +198,7 @@
 				8C54AB05283C9A1200431F28 /* PrimaryButton.swift */,
 				8C54AB0C283CA01C00431F28 /* ProgressBar.swift */,
 				8C54AB11283CA2B700431F28 /* AnswerRow.swift */,
+				8C26935D283DD414008CB109 /* Audio.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -170,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				8C54AB0F283CA26500431F28 /* Answer.swift */,
-				8C54AB15283CA88C00431F28 /* Trivia.swift */,
+				8C54AB15283CA88C00431F28 /* Question.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,9 +225,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C54AAD6283C953100431F28 /* FrequencyQuiz */ = {
+		8C54AAD6283C953100431F28 /* FreqIQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C54AAFB283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuiz" */;
+			buildConfigurationList = 8C54AAFB283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQ" */;
 			buildPhases = (
 				8C54AAD3283C953100431F28 /* Sources */,
 				8C54AAD4283C953100431F28 /* Frameworks */,
@@ -190,14 +237,14 @@
 			);
 			dependencies = (
 			);
-			name = FrequencyQuiz;
+			name = FreqIQ;
 			productName = FrequencyQuiz;
-			productReference = 8C54AAD7283C953100431F28 /* FrequencyQuiz.app */;
+			productReference = 8C54AAD7283C953100431F28 /* FreqIQ.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8C54AAE6283C953300431F28 /* FrequencyQuizTests */ = {
+		8C54AAE6283C953300431F28 /* FreqIQTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C54AAFE283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuizTests" */;
+			buildConfigurationList = 8C54AAFE283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQTests" */;
 			buildPhases = (
 				8C54AAE3283C953300431F28 /* Sources */,
 				8C54AAE4283C953300431F28 /* Frameworks */,
@@ -208,14 +255,14 @@
 			dependencies = (
 				8C54AAE9283C953300431F28 /* PBXTargetDependency */,
 			);
-			name = FrequencyQuizTests;
+			name = FreqIQTests;
 			productName = FrequencyQuizTests;
-			productReference = 8C54AAE7283C953300431F28 /* FrequencyQuizTests.xctest */;
+			productReference = 8C54AAE7283C953300431F28 /* FreqIQTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8C54AAF0283C953300431F28 /* FrequencyQuizUITests */ = {
+		8C54AAF0283C953300431F28 /* FreqIQUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C54AB01283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuizUITests" */;
+			buildConfigurationList = 8C54AB01283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQUITests" */;
 			buildPhases = (
 				8C54AAED283C953300431F28 /* Sources */,
 				8C54AAEE283C953300431F28 /* Frameworks */,
@@ -226,9 +273,9 @@
 			dependencies = (
 				8C54AAF3283C953300431F28 /* PBXTargetDependency */,
 			);
-			name = FrequencyQuizUITests;
+			name = FreqIQUITests;
 			productName = FrequencyQuizUITests;
-			productReference = 8C54AAF1283C953300431F28 /* FrequencyQuizUITests.xctest */;
+			productReference = 8C54AAF1283C953300431F28 /* FreqIQUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +301,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C54AAD2283C953100431F28 /* Build configuration list for PBXProject "FrequencyQuiz" */;
+			buildConfigurationList = 8C54AAD2283C953100431F28 /* Build configuration list for PBXProject "FreqIQ" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,9 +314,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C54AAD6283C953100431F28 /* FrequencyQuiz */,
-				8C54AAE6283C953300431F28 /* FrequencyQuizTests */,
-				8C54AAF0283C953300431F28 /* FrequencyQuizUITests */,
+				8C54AAD6283C953100431F28 /* FreqIQ */,
+				8C54AAE6283C953300431F28 /* FreqIQTests */,
+				8C54AAF0283C953300431F28 /* FreqIQUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,8 +326,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CEDE3E5283DF75000D3D800 /* 2kHz12dB.wav in Resources */,
+				8CEDE3E7283DF75000D3D800 /* 500Hz12dB.wav in Resources */,
+				8CEDE3EB283DF75000D3D800 /* 8kHz12dB.wav in Resources */,
+				8CEDE3ED283DF75000D3D800 /* 1kHz12dB.wav in Resources */,
+				8CEDE3E9283DF75000D3D800 /* 4kHz12dB.wav in Resources */,
+				8CEDE3EC283DF75000D3D800 /* 63Hz12dB.wav in Resources */,
 				8C54AAE2283C953300431F28 /* Preview Assets.xcassets in Resources */,
+				8CEDE3E4283DF75000D3D800 /* 31.5Hz12dB.wav in Resources */,
+				8CEDE3E8283DF75000D3D800 /* original.wav in Resources */,
 				8C54AADF283C953300431F28 /* Assets.xcassets in Resources */,
+				8CEDE3EA283DF75000D3D800 /* 16kHz12dB.wav in Resources */,
+				8CEDE3E6283DF75000D3D800 /* 125Hz12dB.wav in Resources */,
+				8CEDE3EE283DF75000D3D800 /* 250Hz12dB.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,14 +365,16 @@
 			files = (
 				8C54AB0B283C9F4800431F28 /* QuestionView.swift in Sources */,
 				8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */,
-				8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */,
+				8C26935E283DD414008CB109 /* Audio.swift in Sources */,
+				8C54AB16283CA88C00431F28 /* Question.swift in Sources */,
 				8C54AB06283C9A1200431F28 /* PrimaryButton.swift in Sources */,
 				8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */,
 				8C54AADD283C953100431F28 /* ContentView.swift in Sources */,
 				8C54AB10283CA26500431F28 /* Answer.swift in Sources */,
-				8C54AADB283C953100431F28 /* FrequencyQuizApp.swift in Sources */,
+				8C54AADB283C953100431F28 /* FreqIQApp.swift in Sources */,
 				8C54AB0D283CA01C00431F28 /* ProgressBar.swift in Sources */,
 				8C54AB09283C9DC700431F28 /* Extensions.swift in Sources */,
+				8CEDE3D8283DE38B00D3D800 /* QuestionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,7 +382,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C54AAEC283C953300431F28 /* FrequencyQuizTests.swift in Sources */,
+				8C54AAEC283C953300431F28 /* FreqIQTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C54AAF8283C953300431F28 /* FrequencyQuizUITestsLaunchTests.swift in Sources */,
-				8C54AAF6283C953300431F28 /* FrequencyQuizUITests.swift in Sources */,
+				8C54AAF8283C953300431F28 /* FreqIQUITestsLaunchTests.swift in Sources */,
+				8C54AAF6283C953300431F28 /* FreqIQUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +400,12 @@
 /* Begin PBXTargetDependency section */
 		8C54AAE9283C953300431F28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C54AAD6283C953100431F28 /* FrequencyQuiz */;
+			target = 8C54AAD6283C953100431F28 /* FreqIQ */;
 			targetProxy = 8C54AAE8283C953300431F28 /* PBXContainerItemProxy */;
 		};
 		8C54AAF3283C953300431F28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8C54AAD6283C953100431F28 /* FrequencyQuiz */;
+			target = 8C54AAD6283C953100431F28 /* FreqIQ */;
 			targetProxy = 8C54AAF2283C953300431F28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -472,7 +532,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrequencyQuiz/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FreqIQ/Preview Content\"";
 				DEVELOPMENT_TEAM = 5P5P47MC3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -486,7 +546,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FrequencyQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FreqIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,7 +561,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FrequencyQuiz/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FreqIQ/Preview Content\"";
 				DEVELOPMENT_TEAM = 5P5P47MC3X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,7 +575,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FrequencyQuiz;
+				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FreqIQ;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -539,7 +599,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrequencyQuiz.app/FrequencyQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreqIQ.app/FreqIQ";
 			};
 			name = Debug;
 		};
@@ -559,7 +619,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FrequencyQuiz.app/FrequencyQuiz";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FreqIQ.app/FreqIQ";
 			};
 			name = Release;
 		};
@@ -602,7 +662,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C54AAD2283C953100431F28 /* Build configuration list for PBXProject "FrequencyQuiz" */ = {
+		8C54AAD2283C953100431F28 /* Build configuration list for PBXProject "FreqIQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C54AAF9283C953300431F28 /* Debug */,
@@ -611,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C54AAFB283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuiz" */ = {
+		8C54AAFB283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C54AAFC283C953300431F28 /* Debug */,
@@ -620,7 +680,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C54AAFE283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuizTests" */ = {
+		8C54AAFE283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C54AAFF283C953300431F28 /* Debug */,
@@ -629,7 +689,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C54AB01283C953300431F28 /* Build configuration list for PBXNativeTarget "FrequencyQuizUITests" */ = {
+		8C54AB01283C953300431F28 /* Build configuration list for PBXNativeTarget "FreqIQUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C54AB02283C953300431F28 /* Debug */,

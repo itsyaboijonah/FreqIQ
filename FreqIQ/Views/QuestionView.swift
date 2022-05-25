@@ -21,6 +21,10 @@ struct QuestionView: View {
             
             ProgressBar(progress: 40)
             
+            Audio(questionNumber: 1, sampleName: "original")
+            
+            Spacer()
+            
             VStack(alignment: .leading, spacing: 20){
                 Text("What's the boosted frequency?")
                     .font(.system(size: 20))

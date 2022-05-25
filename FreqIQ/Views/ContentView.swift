@@ -12,7 +12,7 @@ struct ContentView: View {
         NavigationView {
             VStack(spacing: 40){
                 VStack(spacing: 20){
-                    Text("Ear Training Game")
+                    Text("FreqIQ")
                         .yellowTitle()
                     Text("Train your ears to hear specific frequencies")
                         .foregroundColor(Color("AccentColor"))

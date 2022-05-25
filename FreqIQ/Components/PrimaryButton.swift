@@ -18,7 +18,6 @@ struct PrimaryButton: View {
             .background(background)
             .cornerRadius(30)
             .shadow(radius:10)
-        
     }
 }
 
