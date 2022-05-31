@@ -7,10 +7,10 @@
 
 import Foundation
 
-struct Question: Decodable{
-    var examples: [Example]
+struct Trivia: Decodable{
+    var results: [Result]
     
-    struct Example: Decodable, Identifiable{
+    struct Result: Decodable, Identifiable{
         var id: UUID {
             UUID()
         }
@@ -18,6 +18,8 @@ struct Question: Decodable{
         var difficulty: String
         var correctFrequency: String
         var incorrectFrequencies: [String]
-        
+        var answers: [Answer]{
+            return ([Answer(text: correctFrequency, isCorrect: true)] + incorrectFrequencies.map{x in Answer(text: x, isCorrect: false)}).shuffled()
+        }
     }
 }

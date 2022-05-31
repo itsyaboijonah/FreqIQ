@@ -22,13 +22,13 @@
 		8C54AB10283CA26500431F28 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB0F283CA26500431F28 /* Answer.swift */; };
 		8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB11283CA2B700431F28 /* AnswerRow.swift */; };
 		8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB13283CA77B00431F28 /* TriviaView.swift */; };
-		8C54AB16283CA88C00431F28 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB15283CA88C00431F28 /* Question.swift */; };
-		8CEDE3D8283DE38B00D3D800 /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */; };
+		8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C54AB15283CA88C00431F28 /* Trivia.swift */; };
+		8CEDE3D8283DE38B00D3D800 /* TriviaManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDE3D7283DE38B00D3D800 /* TriviaManager.swift */; };
 		8CEDE3E4283DF75000D3D800 /* 31.5Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3D9283DF74F00D3D800 /* 31.5Hz12dB.wav */; };
 		8CEDE3E5283DF75000D3D800 /* 2kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DA283DF74F00D3D800 /* 2kHz12dB.wav */; };
 		8CEDE3E6283DF75000D3D800 /* 125Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */; };
 		8CEDE3E7283DF75000D3D800 /* 500Hz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */; };
-		8CEDE3E8283DF75000D3D800 /* original.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DD283DF75000D3D800 /* original.wav */; };
+		8CEDE3E8283DF75000D3D800 /* original12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DD283DF75000D3D800 /* original12dB.wav */; };
 		8CEDE3E9283DF75000D3D800 /* 4kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DE283DF75000D3D800 /* 4kHz12dB.wav */; };
 		8CEDE3EA283DF75000D3D800 /* 16kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3DF283DF75000D3D800 /* 16kHz12dB.wav */; };
 		8CEDE3EB283DF75000D3D800 /* 8kHz12dB.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8CEDE3E0283DF75000D3D800 /* 8kHz12dB.wav */; };
@@ -73,13 +73,13 @@
 		8C54AB0F283CA26500431F28 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		8C54AB11283CA2B700431F28 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
 		8C54AB13283CA77B00431F28 /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
-		8C54AB15283CA88C00431F28 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
-		8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		8C54AB15283CA88C00431F28 /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		8CEDE3D7283DE38B00D3D800 /* TriviaManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaManager.swift; sourceTree = "<group>"; };
 		8CEDE3D9283DF74F00D3D800 /* 31.5Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 31.5Hz12dB.wav; sourceTree = "<group>"; };
 		8CEDE3DA283DF74F00D3D800 /* 2kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 2kHz12dB.wav; sourceTree = "<group>"; };
 		8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 125Hz12dB.wav; sourceTree = "<group>"; };
 		8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 500Hz12dB.wav; sourceTree = "<group>"; };
-		8CEDE3DD283DF75000D3D800 /* original.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = original.wav; sourceTree = "<group>"; };
+		8CEDE3DD283DF75000D3D800 /* original12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = original12dB.wav; sourceTree = "<group>"; };
 		8CEDE3DE283DF75000D3D800 /* 4kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 4kHz12dB.wav; sourceTree = "<group>"; };
 		8CEDE3DF283DF75000D3D800 /* 16kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 16kHz12dB.wav; sourceTree = "<group>"; };
 		8CEDE3E0283DF75000D3D800 /* 8kHz12dB.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8kHz12dB.wav; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				8CEDE3DB283DF75000D3D800 /* 125Hz12dB.wav */,
 				8CEDE3E3283DF75000D3D800 /* 250Hz12dB.wav */,
 				8CEDE3DC283DF75000D3D800 /* 500Hz12dB.wav */,
-				8CEDE3DD283DF75000D3D800 /* original.wav */,
+				8CEDE3DD283DF75000D3D800 /* original12dB.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -162,7 +162,7 @@
 				8C54AADE283C953300431F28 /* Assets.xcassets */,
 				8C54AAE0283C953300431F28 /* Preview Content */,
 				8C54AB08283C9DC700431F28 /* Extensions.swift */,
-				8CEDE3D7283DE38B00D3D800 /* QuestionManager.swift */,
+				8CEDE3D7283DE38B00D3D800 /* TriviaManager.swift */,
 			);
 			path = FreqIQ;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				8C54AB0F283CA26500431F28 /* Answer.swift */,
-				8C54AB15283CA88C00431F28 /* Question.swift */,
+				8C54AB15283CA88C00431F28 /* Trivia.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -334,7 +334,7 @@
 				8CEDE3EC283DF75000D3D800 /* 63Hz12dB.wav in Resources */,
 				8C54AAE2283C953300431F28 /* Preview Assets.xcassets in Resources */,
 				8CEDE3E4283DF75000D3D800 /* 31.5Hz12dB.wav in Resources */,
-				8CEDE3E8283DF75000D3D800 /* original.wav in Resources */,
+				8CEDE3E8283DF75000D3D800 /* original12dB.wav in Resources */,
 				8C54AADF283C953300431F28 /* Assets.xcassets in Resources */,
 				8CEDE3EA283DF75000D3D800 /* 16kHz12dB.wav in Resources */,
 				8CEDE3E6283DF75000D3D800 /* 125Hz12dB.wav in Resources */,
@@ -366,7 +366,7 @@
 				8C54AB0B283C9F4800431F28 /* QuestionView.swift in Sources */,
 				8C54AB14283CA77B00431F28 /* TriviaView.swift in Sources */,
 				8C26935E283DD414008CB109 /* Audio.swift in Sources */,
-				8C54AB16283CA88C00431F28 /* Question.swift in Sources */,
+				8C54AB16283CA88C00431F28 /* Trivia.swift in Sources */,
 				8C54AB06283C9A1200431F28 /* PrimaryButton.swift in Sources */,
 				8C54AB12283CA2B700431F28 /* AnswerRow.swift in Sources */,
 				8C54AADD283C953100431F28 /* ContentView.swift in Sources */,
@@ -374,7 +374,7 @@
 				8C54AADB283C953100431F28 /* FreqIQApp.swift in Sources */,
 				8C54AB0D283CA01C00431F28 /* ProgressBar.swift in Sources */,
 				8C54AB09283C9DC700431F28 /* Extensions.swift in Sources */,
-				8CEDE3D8283DE38B00D3D800 /* QuestionManager.swift in Sources */,
+				8CEDE3D8283DE38B00D3D800 /* TriviaManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,7 +594,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FrequencyQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FreqIQTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -614,7 +614,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FrequencyQuizTests;
+				PRODUCT_BUNDLE_IDENTIFIER = Boketto.FreqIQTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -637,7 +637,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FrequencyQuiz;
+				TEST_TARGET_NAME = FreqIQ;
 			};
 			name = Debug;
 		};
@@ -655,7 +655,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = FrequencyQuiz;
+				TEST_TARGET_NAME = FreqIQ;
 			};
 			name = Release;
 		};
