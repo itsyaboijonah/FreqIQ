@@ -29,7 +29,7 @@ struct ContentView: View {
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .edgesIgnoringSafeArea(.all)
-        .background(Color("black"))
+            .background(Color("black"))
         }
     }
 }

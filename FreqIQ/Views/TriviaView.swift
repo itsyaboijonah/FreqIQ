@@ -12,7 +12,7 @@ struct TriviaView: View {
     var body: some View {
         if triviaManager.reachedEnd{
             VStack(spacing: 20){
-                 Text("FreqIQ")
+                Text("FreqIQ")
                     .yellowTitle()
                 
                 Text("Congrats, you've completed the training 🥳")
