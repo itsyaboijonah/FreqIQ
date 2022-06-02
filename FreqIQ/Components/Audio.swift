@@ -37,10 +37,14 @@ struct Audio: View {
                       }
                   }
               }
-              .onAppear {
-                  let sound = Bundle.main.path(forResource: triviaManager.filename, ofType: "wav")
-                  self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
-              }
+            .onAppear {
+                let sound = Bundle.main.path(forResource: triviaManager.filename, ofType: "wav")
+                self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+            }
+            .onChange(of: triviaManager.filename){newFileName in
+                      let sound = Bundle.main.path(forResource: newFileName, ofType: "wav")
+                      self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+                  }
     }
 }
 
