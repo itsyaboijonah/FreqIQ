@@ -19,9 +19,8 @@ struct TriviaView: View {
                 
                 Text("You scored \(triviaManager.score) out of \(triviaManager.length)")
                 
-                NavigationLink{
-                    TriviaView()
-                        .environmentObject(triviaManager)
+                Button{
+                    triviaManager.reset()
                 } label: {
                     PrimaryButton(text: "Play Again")
                 }

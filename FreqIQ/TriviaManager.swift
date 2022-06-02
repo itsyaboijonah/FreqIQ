@@ -30,6 +30,16 @@ class TriviaManager: ObservableObject{
         reachedEnd = false
     }
     
+    func reset(){
+        generateQuestions()
+        length = trivia.count
+        setQuestion()
+        index = 0
+        score = 0
+        progress = 0.00
+        reachedEnd = false
+    }
+    
     func generateQuestions(){
         trivia = normalSounds.map{x in
             Trivia.Result(audioFilename: x+"12dB", difficulty: "Normal", correctFrequency: x, incorrectFrequencies: {
