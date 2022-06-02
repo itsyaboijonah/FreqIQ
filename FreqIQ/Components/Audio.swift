@@ -42,6 +42,9 @@ struct Audio: View {
                 self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
             }
             .onChange(of: triviaManager.filename){newFileName in
+                    if (self.audioPlayer.isPlaying){
+                        self.audioPlayer.stop()
+                    }
                       let sound = Bundle.main.path(forResource: newFileName, ofType: "wav")
                       self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
                   }

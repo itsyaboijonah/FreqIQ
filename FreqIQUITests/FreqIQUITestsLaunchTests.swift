@@ -7,7 +7,7 @@
 
 import XCTest
 
-class FrequencyQuizUITestsLaunchTests: XCTestCase {
+class FreqIQUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
