@@ -22,7 +22,8 @@ struct QuestionView: View {
             
             ProgressBar(progress: triviaManager.progress)
             
-            Audio(questionNumber: triviaManager.index+1, sampleName: triviaManager.filename)
+            Audio()
+                .environmentObject(triviaManager)
             
             Spacer()
             

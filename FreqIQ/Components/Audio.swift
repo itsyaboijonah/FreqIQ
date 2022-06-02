@@ -9,15 +9,13 @@ import SwiftUI
 import AVFoundation
 
 struct Audio: View {
-    
+    @EnvironmentObject var triviaManager: TriviaManager
     @State var audioPlayer: AVAudioPlayer!
-    var questionNumber: Int
-    var sampleName: String
     
     var body: some View {
         ZStack {
                   VStack {
-                      Text("Sample " + String(questionNumber)).font(.system(size: 45)).font(.largeTitle)
+                      Text("Sample " + String(triviaManager.index+1)).font(.system(size: 45)).font(.largeTitle)
                       HStack {
                           Spacer()
                           Button(action: {
@@ -40,7 +38,7 @@ struct Audio: View {
                   }
               }
               .onAppear {
-                  let sound = Bundle.main.path(forResource: sampleName, ofType: "wav")
+                  let sound = Bundle.main.path(forResource: triviaManager.filename, ofType: "wav")
                   self.audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
               }
     }
@@ -48,6 +46,7 @@ struct Audio: View {
 
 struct Audio_Previews: PreviewProvider {
     static var previews: some View {
-        Audio(questionNumber: 1, sampleName: "original")
+        Audio()
+            .environmentObject(TriviaManager()) 
     }
 }
